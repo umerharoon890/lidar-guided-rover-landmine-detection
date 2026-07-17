@@ -77,7 +77,6 @@ The project uses LiDAR-based mapping and Nav2-style navigation configuration for
 
 The Arduino bridge provides low-level motor control and encoder feedback for physical rover integration using a serial connection between the high-level computer and the motor controller.
 
-## My Contribution
 
 - Designed and integrated the ROS 2-based rover simulation workflow.
 - Configured robot description, LiDAR integration, Gazebo simulation, RViz visualization, SLAM, and Nav2 navigation files.
@@ -99,9 +98,7 @@ The Arduino bridge provides low-level motor control and encoder feedback for phy
 
 ![Costmap](docs/screenshots/costmap.png)
 
-### Minefield Concept
 
-![Minefield](docs/screenshots/minefield.jpg)
 
 ## Setup Notes
 
@@ -141,11 +138,6 @@ The final report and poster are included in:
 docs/report/
 ```
 
-Large demo videos are not included in the repository to keep it lightweight. Video links can be added in:
-
-```text
-docs/media_links.md
-```
 
 ## Future Improvements
 
@@ -156,9 +148,3 @@ docs/media_links.md
 - Improve physical rover calibration and motor PID tuning
 - Add camera-based object detection for visual inspection
 - Add full launch instructions for specific ROS 2 and Gazebo versions
-
-## Author
-
-Muhammad Umer Haroon
-
-GitHub: https://github.com/umerharoon890
