@@ -106,7 +106,20 @@ The Arduino bridge provides low-level motor control and encoder feedback for phy
 
 ![Final Implementation](docs/screenshots/Final%20Implementation.jpeg)
 
+## Demo Preview
 
+### SLAM Mapping
+
+![Slam Mapping](docs/gifs/Slam%20Mapping.gif)
+
+### RViz Navigation
+
+![NAV2](docs/gifs/NAV2.gif)
+
+## Full Demo Videos
+
+- [Physical SLAM](https://drive.google.com/file/d/16GvG8qiibcHXYj9VUs7gSWgh9bNfraC_/view?usp=sharing)
+- [Full Physical Rover Demo](https://drive.google.com/file/d/1-OoBgJiMFOP-3Cs7F-AlEommCMT-0FMY/view?usp=sharing)
 
 ## Setup Notes
 
