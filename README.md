@@ -32,6 +32,18 @@ The landmine detection layer was modeled as an abstract/proximity-based detectio
 - LiDAR-based navigation
 - Differential drive control
 
+## Hardware Used
+
+- Raspberry Pi 4
+- RPLidar A1
+- Arduino Uno
+- L298N motor driver
+- 76 RPM encoder motors
+- 3S 11.1V LiPo battery
+- Power bank for Raspberry Pi
+- Custom rover chassis
+- DIY metal detector module
+
 ## Repository Structure
 
 ```text
@@ -77,6 +89,7 @@ The project uses LiDAR-based mapping and Nav2-style navigation configuration for
 
 The Arduino bridge provides low-level motor control and encoder feedback for physical rover integration using a serial connection between the high-level computer and the motor controller.
 
+## My contributions
 
 - Designed and integrated the ROS 2-based rover simulation workflow.
 - Configured robot description, LiDAR integration, Gazebo simulation, RViz visualization, SLAM, and Nav2 navigation files.
@@ -124,6 +137,12 @@ The Arduino bridge provides low-level motor control and encoder feedback for phy
 
 - [Physical SLAM](https://drive.google.com/file/d/16GvG8qiibcHXYj9VUs7gSWgh9bNfraC_/view?usp=sharing)
 - [Full Physical Rover Demo](https://drive.google.com/file/d/1-OoBgJiMFOP-3Cs7F-AlEommCMT-0FMY/view?usp=sharing)
+
+## Simulation and Physical Implementation
+
+The project was developed using a simulation-first workflow. Gazebo and RViz were used to test robot navigation, mapping, obstacle avoidance, and minefield traversal before moving toward physical rover integration.
+
+The physical implementation used a Raspberry Pi-based high-level control system and an Arduino motor bridge for low-level motor control. The landmine detection logic was modeled as an abstract/proximity-based detection system for simulation and demonstration purposes.
 
 ## Setup Notes
 
