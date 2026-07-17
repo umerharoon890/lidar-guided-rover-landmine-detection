@@ -104,7 +104,7 @@ The Arduino bridge provides low-level motor control and encoder feedback for phy
 
 ### Components Used 
 
-![Components Used](docs/screenshots/Components%20Used.jpeg)
+![Component Used](docs/screenshots/Component%20Used.jpeg)
 
 ### Final Hardware Implementation
 
