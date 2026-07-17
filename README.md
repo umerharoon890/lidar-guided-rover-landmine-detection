@@ -98,6 +98,14 @@ The Arduino bridge provides low-level motor control and encoder feedback for phy
 
 ![Costmap](docs/screenshots/costmap.png)
 
+### Initial Model in Fusion 360
+
+![Initial Model in Fusion 360](docs/screenshots/Initial%20model%20in%20Fusion%20360.jpeg)
+
+### Final Hardware Implementation
+
+![Final Implementation](docs/screenshots/Final%20Implementation.jpeg)
+
 
 
 ## Setup Notes
